@@ -1,0 +1,8 @@
+# Write your code here :-)
+print("Enter the coeffs of the quad. eqn: ")
+a = float(input("a: "))
+b = float(input("b: "))
+c = float(input("c: "))
+x = (-1 * b + (b ** 2 - 4 * a * c) ** 0.5) / (2 * a)
+y = (-1 * b - (b ** 2 - 4 * a * c) ** 0.5) / (2 * a)
+print("The roots are: " + str(x) + " " + str(y))
